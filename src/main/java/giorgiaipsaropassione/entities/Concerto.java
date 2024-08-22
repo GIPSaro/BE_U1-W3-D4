@@ -33,9 +33,81 @@ public class Concerto {
         this.location = location;
     }
 
-    public enum GenereConcerto {
-        ROCK, POP, CLASSICO
+    public Long getId() {
+        return id;
     }
 
     // altri getter e setter
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTitolo() {
+        return titolo;
+    }
+
+    public void setTitolo(String titolo) {
+        this.titolo = titolo;
+    }
+
+    public LocalDate getData() {
+        return data;
+    }
+
+    public void setData(LocalDate data) {
+        this.data = data;
+    }
+
+    public String getDescrizione() {
+        return descrizione;
+    }
+
+    public void setDescrizione(String descrizione) {
+        this.descrizione = descrizione;
+    }
+
+    public String getTipoEvento() {
+        return tipoEvento;
+    }
+
+    public void setTipoEvento(String tipoEvento) {
+        this.tipoEvento = tipoEvento;
+    }
+
+    public int getNumeroMassimoPartecipanti() {
+        return numeroMassimoPartecipanti;
+    }
+
+    public void setNumeroMassimoPartecipanti(int numeroMassimoPartecipanti) {
+        this.numeroMassimoPartecipanti = numeroMassimoPartecipanti;
+    }
+
+    public GenereConcerto getGenere() {
+        return genere;
+    }
+
+    public void setGenere(GenereConcerto genere) {
+        this.genere = genere;
+    }
+
+    public boolean isAccessibileDisabili() {
+        return accessibileDisabili;
+    }
+
+    public void setAccessibileDisabili(boolean accessibileDisabili) {
+        this.accessibileDisabili = accessibileDisabili;
+    }
+
+    public Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
+    public enum GenereConcerto {
+        ROCK, POP, CLASSICO
+    }
 }

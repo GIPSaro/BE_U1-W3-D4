@@ -10,8 +10,7 @@ import java.util.List;
 
 public class EventoDAO {
     static Connection conn = null;
-    // QUA DENTRO AVREMO PURE BISOGNO DELL'ENTITY MANAGER OLTRE CHE AI METODI , LO
-    // CREERO NEL MAIN E LO PASSERO AI MIEI DAO
+  
     private final EntityManager em;
 
     public EventoDAO(EntityManager em) {
