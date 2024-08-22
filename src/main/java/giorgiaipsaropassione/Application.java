@@ -38,9 +38,10 @@ public class Application {
         Concerto c3 = new Concerto("Beethoven", LocalDate.now(), "Concerto Beethoven", "Pubblico", 232321,
                 Concerto.GenereConcerto.CLASSICO, true, teatro);
 
-        // Salva i concerti
-        cd.save(c3);
-        cd.save(c2);
-        cd.save(c1);
+
+//        cd.save(c3);
+//        cd.save(c2);
+//        cd.save(c1);
+        
     }
 }
